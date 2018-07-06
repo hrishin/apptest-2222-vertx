@@ -14,6 +14,7 @@ mavenNode {
   checkout scm
   if (utils.isCI()) {
 
+    
     mavenCI{}
     
   } else if (utils.isCD()) {
