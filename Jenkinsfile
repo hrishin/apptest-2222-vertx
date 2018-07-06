@@ -10,7 +10,6 @@ def setupScript = null
 
 
 
-
 mavenNode {
   checkout scm
   if (utils.isCI()) {
